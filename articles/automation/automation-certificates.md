@@ -92,7 +92,7 @@ The following sample code shows how to add a certificate to a cloud service in a
 
 ### Graphical runbook sample
 
-You add a **Get-AutomationCerticiate** to a graphical runbook by right-clicking on the certificate in the Library pane of the graphical editor and selecting **Add to canvas**.
+You add a **Get-AutomationCertificate** to a graphical runbook by right-clicking on the certificate in the Library pane of the graphical editor and selecting **Add to canvas**.
 
 ![](media/automation-certificates/certificate-add-canvas.png)
 
