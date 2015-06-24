@@ -17,7 +17,7 @@
 
 # Certificate assets in Azure Automation
 
-Certificates can be stored securely in Azure Automation so they can be accessed by runbooks using the **Get-AutomationCertificate** activity. This allows you to create runbooks that use certificates for authentication or adds them to Azure or third party resources that your runbook may be creating or configuring.
+Certificates can be stored securely in Azure Automation so they can be accessed by runbooks using the **Get-AzureAutomationCertificate** activity. This allows you to create runbooks that use certificates for authentication or adds them to Azure or third party resources that your runbook may be creating or configuring.
 
 >[AZURE.NOTE] Secure assets in Azure Automation include credentials, certificates, connections, and encrypted variables. These assets are encrypted and stored in the Azure Automation using a unique key that is generated for each automation account. This key is encrypted by a master certificate and stored in Azure Automation. Before storing a secure asset, the key for the automation account is decrypted using the master certificate and then used to encrypt the asset.
 
