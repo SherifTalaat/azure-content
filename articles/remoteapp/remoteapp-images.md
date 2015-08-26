@@ -20,9 +20,8 @@
 Your Azure RemoteApp subscription includes three template images:
 
 
-- Windows Server 2012
+- Windows Server 2012 R2
 - Microsoft Office 365 ProPlus (Office 365 subscription required)
-- Microsoft Office 2013 Professional Plus (trial only)
 
 > [AZURE.IMPORTANT]Your Azure RemoteApp subscription grants you access to the software in the images, with the exception of Office 365 ProPlus, which requires a separate subscription, and Office 2013, which cannot be used in production. This means that you can share the programs or apps on the template images with your users. For example, if you create a collection that uses the Windows Server 2012 R2 image, you can publish System Center Endpoint Protection for users to access through RemoteApp.
 > 
